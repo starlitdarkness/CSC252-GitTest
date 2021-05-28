@@ -13,5 +13,9 @@ int main()
 	double area;
 	area = (radius * radius) * 3.14592;
 	cout << area;
+	double circ;
+	circ = (2 * radius) * 3.14592;
+	cout << "The circumference of a circle with radius \n";
+	cout << circ; 
 	return 0;
 }
